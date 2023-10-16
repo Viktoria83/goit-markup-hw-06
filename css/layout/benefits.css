@@ -9,11 +9,11 @@
 /* .benefits-list {
     display: flex;
     gap: 24px;
-}
-
-.benefits-list-item {
-    width: calc((100% - 72px) / 4);
 } */
+
+.benefits-list-item:not(:last-child) {
+    margin-bottom: 72px;
+} 
 
 .benefits-title {
     color: #2E2F42;
@@ -36,7 +36,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    padding-bottom: 72px;
+    /* padding-bottom: 72px; */
 }
 }
 
